@@ -1,0 +1,3 @@
+# Installed only into .venv-ocr; the main application environment stays unchanged.
+paddlepaddle>=3.0,<4
+paddleocr>=3.0,<4
