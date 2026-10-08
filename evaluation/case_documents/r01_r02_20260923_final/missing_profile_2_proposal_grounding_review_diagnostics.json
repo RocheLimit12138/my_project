@@ -1,0 +1,11 @@
+{
+  "http_status": 200,
+  "finish_reason": "stop",
+  "completion_tokens": 2384,
+  "content_characters": 5600,
+  "parse_error": {
+    "type": "json_syntax",
+    "line": 1,
+    "column": 3837
+  }
+}

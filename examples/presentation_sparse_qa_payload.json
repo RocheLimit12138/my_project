@@ -1,0 +1,67 @@
+{
+  "proposal": {
+    "merchant_profile": {
+      "name": "街角餐厅",
+      "industry": "餐饮",
+      "city": "广州",
+      "address": "",
+      "products": "",
+      "average_spend_yuan": null,
+      "problems": [],
+      "goals": [],
+      "budget_yuan": null,
+      "campaign_days": null
+    },
+    "generated": {
+      "chapters": [
+        {
+          "key": "business_profile",
+          "points": [
+            {"kind": "limitation", "text": "门店地址待补充。"}
+          ]
+        },
+        {
+          "key": "problem_analysis",
+          "points": [
+            {"kind": "limitation", "text": "尚未提供经营问题，暂时无法判断。"}
+          ]
+        },
+        {
+          "key": "location_analysis",
+          "points": []
+        },
+        {
+          "key": "audience_analysis",
+          "points": []
+        },
+        {
+          "key": "goals",
+          "points": []
+        },
+        {
+          "key": "strategy",
+          "points": []
+        },
+        {
+          "key": "execution_budget",
+          "points": []
+        },
+        {
+          "key": "measurement",
+          "points": []
+        }
+      ],
+      "budget_items": [],
+      "budget_note": "预算上限待确认。",
+      "execution_tasks": [],
+      "budget_inquiries": [],
+      "measurement_metrics": [],
+      "action_plans": []
+    },
+    "sections": [],
+    "missing_fields": [
+      {"field": "address", "label": "地址"},
+      {"field": "budget_yuan", "label": "预算"}
+    ]
+  }
+}

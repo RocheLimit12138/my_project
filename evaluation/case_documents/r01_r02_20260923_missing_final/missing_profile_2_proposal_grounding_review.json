@@ -1,0 +1,272 @@
+{
+  "checks": [
+    {
+      "path": "chapters[0].points[0]",
+      "verdict": "supported",
+      "reason": "品牌、品类、城市与虚构演示标注均与商家资料一致。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[1]",
+      "verdict": "supported",
+      "reason": "缺失字段表述准确，门店数量缺失状态与建议均合规。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[2]",
+      "verdict": "supported",
+      "reason": "模拟案例定位准确，未把历史画像当作当前事实。",
+      "evidence": [
+        {
+          "source_id": "D1",
+          "quote": "炭间晚风 / 虚构案例，数据待核验"
+        },
+        {
+          "source_id": "D1",
+          "quote": "表格第 3 行：经营项目：地址与门店；模拟设定：成都武侯区玉林片区「案例铺位 F-06」，单店，虚构门牌"
+        }
+      ]
+    },
+    {
+      "path": "chapters[1].points[0]",
+      "verdict": "supported",
+      "reason": "经营现状与基线缺失属实，补充数据建议明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[1].points[1]",
+      "verdict": "supported",
+      "reason": "三类排查方向与验证框架均出自模拟案例且已标明。",
+      "evidence": [
+        {
+          "source_id": "D4",
+          "quote": "表格第 2 行：主要问题：附近人未形成到店习惯；判断依据：工作日日均 21 单 / 30 日复购率 14%；原因假设与验证：可能缺少固定消费理由。访谈 20 名附近顾客，区分口味、距离和价格问题。"
+        },
+        {
+          "source_id": "D4",
+          "quote": "表格第 3 行：主要问题：团购页不能解释套餐；判断依据：2,000 次详情访问 / 付费 160 单，转化 8%；原因假设与验证：可能份量与可用时间不清。以同价两版头图各测 200 次有效访问。"
+        },
+        {
+          "source_id": "D4",
+          "quote": "表格第 4 行：主要问题：高峰出餐影响体验；判断依据：抽样 100 单 / 15 单未按承诺出餐；原因假设与验证：可能备料或接单集中。连续 7 晚记录接单、首菜与齐菜时间。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[1].points[2]",
+      "verdict": "supported",
+      "reason": "三项验证与顺序均对应模拟案例，且为明确建议。",
+      "evidence": [
+        {
+          "source_id": "D4",
+          "quote": "访谈 20 名附近顾客，区分口味、距离和价格问题。"
+        },
+        {
+          "source_id": "D4",
+          "quote": "以同价两版头图各测 200 次有效访问。"
+        },
+        {
+          "source_id": "D4",
+          "quote": "连续 7 晚记录接单、首菜与齐菜时间。"
+        },
+        {
+          "source_id": "D4",
+          "quote": "验证顺序：先确认产品和服务，再逐步增加付费流量。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[2].points[0]",
+      "verdict": "supported",
+      "reason": "地址与商圈缺失属实，待确认表述准确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[2].points[1]",
+      "verdict": "supported",
+      "reason": "实走路线与客流记录做法出自模拟案例，竞店需重采已说明。",
+      "evidence": [
+        {
+          "source_id": "D7",
+          "quote": "首周实走路线，并连续 3 个工作日晚按半小时记录客流。竞店均为模拟样本。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[2].points[2]",
+      "verdict": "supported",
+      "reason": "3公里半径确为模拟设定，未套用为本商家范围。",
+      "evidence": [
+        {
+          "source_id": "D1",
+          "quote": "表格第 7 行：经营项目：推广边界；模拟设定：主攻周边 3 公里，套餐以餐食为主，酒水为自选加购"
+        }
+      ]
+    },
+    {
+      "path": "chapters[3].points[0]",
+      "verdict": "supported",
+      "reason": "目标客群与产品缺失属实，补充建议明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[3].points[1]",
+      "verdict": "supported",
+      "reason": "按消费任务划分人群的方法出自模拟案例且已标明。",
+      "evidence": [
+        {
+          "source_id": "D9",
+          "quote": "表格第 2 行：客群与资源占比：核心 55% / 25 至 38 岁附近白领；消费需求与动机：下班两人吃热餐， / 希望选择简单、总价清楚。；适合推广的产品：¥188 双人晚餐 / 烧鸟搭配主食；触达方式：抖音附近内容 / 大众点评搜索"
+        },
+        {
+          "source_id": "D9",
+          "quote": "表格第 3 行：客群与资源占比：次核心 30% / 附近情侣与朋友；消费需求与动机：小聚与轻松约会， / 关注环境、份量和预约。；适合推广的产品：¥368 四人分享餐 / 提前确认桌位；触达方式：小红书场景笔记 / 门店预约"
+        },
+        {
+          "source_id": "D9",
+          "quote": "表格第 4 行：客群与资源占比：补充 15% / 已经到店的老顾客；消费需求与动机：想换口味，也希望 / 服务和出餐稳定。；适合推广的产品：每两周一款限定串 / 第二次实付赠指定小食；触达方式：自愿微信订阅 / 到店后的口味反馈"
+        }
+      ]
+    },
+    {
+      "path": "chapters[3].points[2]",
+      "verdict": "supported",
+      "reason": "抽样访谈建议明确，未预设年龄收入结论。",
+      "evidence": [
+        {
+          "source_id": "D9",
+          "quote": "共同到店理由：附近、好点单、吃得饱，套餐明确包含餐食与基础饮品。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[4].points[0]",
+      "verdict": "supported",
+      "reason": "基线与目标缺失属实，口径建议明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[1]",
+      "verdict": "supported",
+      "reason": "预算上限与周期与商家资料一致，且未等同报价。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[2]",
+      "verdict": "supported",
+      "reason": "T0/T1对比框架出自模拟案例，目标值待基线确认。",
+      "evidence": [
+        {
+          "source_id": "D12",
+          "quote": "T0 = 启动日前连续 28 天；T1 = 第 5-8 周。按相同天数与星期结构对比。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[5].points[0]",
+      "verdict": "supported",
+      "reason": "问题、产品与平台缺失属实，补充建议明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[5].points[1]",
+      "verdict": "supported",
+      "reason": "活动结构出自模拟案例，价格须依本商家成本确定。",
+      "evidence": [
+        {
+          "source_id": "D15",
+          "quote": "表格第 2 行：活动：下班双人餐；价格与内容：¥188 / 烧鸟 8 串、小食 2 份、主食 2 份、基础饮品 2 杯；规则与承接：工作日 17:00 至 20:30。 / 每日限 8 套，提前预点，酒水另选。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[5].points[2]",
+      "verdict": "supported",
+      "reason": "内容方向与脚本结构出自模拟案例，出镜同意要求一致。",
+      "evidence": [
+        {
+          "source_id": "D17",
+          "quote": "内容验收：真实门店、实际份量、明确价格。顾客出镜需获得同意。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[6].points[0]",
+      "verdict": "supported",
+      "reason": "预算上限与周期属实，暂不分项分配表述准确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[1]",
+      "verdict": "supported",
+      "reason": "四阶段推进与岗位待确认均为明确建议。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[2]",
+      "verdict": "supported",
+      "reason": "历史分项金额确为模拟案例，未作为本商家报价。",
+      "evidence": [
+        {
+          "source_id": "D18",
+          "quote": "表格第 2 行：项目：拍摄与内容制作；金额（元）：2,800；用途与交付：16 条自制短视频、8 篇图文，含集中拍摄"
+        },
+        {
+          "source_id": "D18",
+          "quote": "表格第 3 行：项目：本地定向投放；金额（元）：4,000；用途与交付：第 2 周 800，第 3 至 4 周 1,200，后 4 周 2,000"
+        }
+      ]
+    },
+    {
+      "path": "chapters[7].points[0]",
+      "verdict": "supported",
+      "reason": "基线与衡量安排缺失属实，建议明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[7].points[1]",
+      "verdict": "supported",
+      "reason": "复盘频率与指标出自模拟案例，阈值以本商家基线为准。",
+      "evidence": [
+        {
+          "source_id": "D22",
+          "quote": "表格第 2 行：来源与频率：POS、核销台账 / 每日；观察指标：实付订单、退款、 / 每单实收；触发条件与动作：每单实收低于 ¥200 连续 7 天，调整套餐搭配，暂停叠加优惠。"
+        },
+        {
+          "source_id": "D22",
+          "quote": "表格第 4 行：来源与频率：广告与详情后台 / 每周；观察指标：新客核销成本、 / 详情付费转化；触发条件与动作：新客样本满 20 单且成本高于 ¥55，暂停素材。访问满 200 次且转化低于 8%，改详情。"
+        },
+        {
+          "source_id": "D22",
+          "quote": "表格第 5 行：来源与频率：会员与订单队列 / 双周；观察指标：30 日复购、 / 全店净增订单；触发条件与动作：成熟复购低于 18%，回访口味与等待。核销增加但全店不增，缩减补贴。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[7].points[2]",
+      "verdict": "supported",
+      "reason": "200次访问样本确为模拟案例，仅作复测假设。",
+      "evidence": [
+        {
+          "source_id": "D21",
+          "quote": "表格第 2 行：模拟历史测试：素材 A：烧鸟特写；详情访问：200 次；付费订单：16 单；付费转化：8%"
+        },
+        {
+          "source_id": "D21",
+          "quote": "表格第 3 行：模拟历史测试：素材 B：双人整桌与价目；详情访问：200 次；付费订单：26 单；付费转化：13%"
+        }
+      ]
+    },
+    {
+      "path": "budget_note",
+      "verdict": "supported",
+      "reason": "预算上限与周期属实，未分项分配，历史金额已标模拟。",
+      "evidence": [
+        {
+          "source_id": "D18",
+          "quote": "表格第 8 行：项目：合计；金额（元）：12,000；用途与交付：所有新增营销现金支出计入总额"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "proposal": {
+    "merchant_profile": {
+      "name": "湖畔小馆",
+      "industry": "融合菜",
+      "city": "杭州",
+      "address": "滨江区江南大道沿线",
+      "products": "工作日双人套餐、周末家庭聚餐套餐",
+      "average_spend_yuan": 96,
+      "business_hours": "11:00-14:00，17:00-22:00",
+      "problems": [
+        "工作日晚餐空位较多",
+        "线上内容没有突出双人用餐场景"
+      ],
+      "target_customers": "周边办公人群与周末家庭客群",
+      "goals": [
+        "提升工作日晚餐有效咨询",
+        "建立可持续复盘的内容与到店链路"
+      ],
+      "budget_yuan": 30000,
+      "campaign_days": 30,
+      "platforms": ["大众点评", "小红书"]
+    },
+    "generated": {
+      "chapters": [
+        {
+          "key": "business_profile",
+          "points": [
+            {"kind": "analysis", "text": "门店以双人用餐和家庭聚餐为主要产品场景，人均消费处于中等客单区间。"},
+            {"kind": "recommendation", "text": "方案先聚焦工作日晚餐，再用周末家庭聚餐作为补充内容方向。"}
+          ]
+        },
+        {
+          "key": "problem_analysis",
+          "points": [
+            {"kind": "analysis", "text": "当前首要问题是工作日晚餐空位较多，但还缺少分时订单与咨询数据。"},
+            {"kind": "hypothesis", "text": "可能存在内容场景不清晰或套餐吸引力不足，建议用两组内容主题进行验证。"}
+          ]
+        },
+        {
+          "key": "location_analysis",
+          "points": [
+            {"kind": "limitation", "text": "先核对周边以办公、居住还是商业客流为主，并记录工作日与周末的到店差异。"},
+            {"kind": "recommendation", "text": "检查步行、停车和公共交通条件，把最清晰的到店方式写入内容与团购页面。"}
+          ]
+        },
+        {
+          "key": "audience_analysis",
+          "points": [
+            {"kind": "hypothesis", "text": "工作日晚餐可优先验证附近下班后两人用餐的人群，重点观察套餐咨询和到店时间。"},
+            {"kind": "recommendation", "text": "周末内容围绕家庭聚餐的菜品组合、环境和预约便利性展开。"}
+          ]
+        },
+        {
+          "key": "goals",
+          "points": [
+            {"kind": "recommendation", "text": "第一阶段先建立曝光、有效咨询、到店核销的同一统计口径。"},
+            {"kind": "limitation", "text": "具体增长目标在取得最近四周基线后确认。"}
+          ]
+        },
+        {
+          "key": "strategy",
+          "points": [
+            {"kind": "recommendation", "text": "用双人晚餐场景内容承接工作日需求，页面明确菜品组合、适用时段和到店方式。"},
+            {"kind": "recommendation", "text": "先测试真实菜品与用餐场景素材，再根据有效咨询和核销结果调整内容方向。"}
+          ]
+        },
+        {
+          "key": "execution_budget",
+          "points": [
+            {"kind": "recommendation", "text": "前两周完成资料核对和素材测试，第三周起根据数据决定是否扩大投放。"},
+            {"kind": "limitation", "text": "达人合作与拍摄制作需在确认报价和授权范围后执行。"}
+          ]
+        },
+        {
+          "key": "measurement",
+          "points": [
+            {"kind": "recommendation", "text": "每周复盘内容曝光、有效咨询、到店核销和顾客反馈。"},
+            {"kind": "recommendation", "text": "连续两周未达到测试目标时，优先调整内容与套餐表达，再判断是否调整渠道。"}
+          ]
+        }
+      ],
+      "budget_items": [
+        {"item": "内容拍摄与制作", "amount_yuan": 8000},
+        {"item": "首轮渠道测试", "amount_yuan": 12000},
+        {"item": "门店物料与权益", "amount_yuan": 4000}
+      ],
+      "budget_note": "其余预算作为后续测试储备，是否使用取决于首轮效果。",
+      "execution_tasks": [
+        {
+          "phase": "基线与准备",
+          "relative_days": "第 1-7 天",
+          "owner": "建议角色：门店负责人",
+          "task": "整理工作日晚餐曝光、有效咨询、到店核销与订单记录，统一统计周期；核对双人套餐和门店承接时段。",
+          "deliverables": "经营基线记录、活动执行条件清单",
+          "acceptance": "记录标明数据来源、统计周期和门店范围，活动规则与门店承接要求明确。",
+          "prerequisites": "确认可使用的平台与经营记录，并明确本轮适用门店和主推产品。"
+        },
+        {
+          "phase": "小范围测试",
+          "relative_days": "第 8-14 天",
+          "owner": "建议角色：内容运营负责人",
+          "task": "围绕工作日晚餐双人场景开展一轮小范围内容测试，记录内容版本、发布时间、咨询及到店核销情况。",
+          "deliverables": "首轮内容记录及阶段数据",
+          "acceptance": "执行记录能对应到内容版本、统计周期和实际数据来源。",
+          "prerequisites": "完成基线整理，并确认套餐规则、门店承接能力和内容审核流程。"
+        },
+        {
+          "phase": "按数据调整",
+          "relative_days": "第 15-21 天",
+          "owner": "建议角色：运营负责人",
+          "task": "对照首轮数据检查有效咨询和到店核销表现，调整内容主题、页面信息或发布时段，保留前后记录。",
+          "deliverables": "调整记录及前后对照数据",
+          "acceptance": "每项调整写明触发数据、调整内容和观察周期，不把同期变化直接归因于推广。",
+          "prerequisites": "完成一轮测试并留存可比较的数据，确认调整符合门店经营约束。"
+        },
+        {
+          "phase": "周期复盘",
+          "relative_days": "第 22-30 天",
+          "owner": "建议角色：商家负责人和运营负责人",
+          "task": "汇总周期内曝光、有效咨询、到店核销及实际投入，结合顾客反馈判断下一轮保留、调整或停止的动作。",
+          "deliverables": "周期复盘记录与下一步建议",
+          "acceptance": "复盘列明指标口径、来源、周期、实际结果、执行限制和下一步决定。",
+          "prerequisites": "完成周期数据汇总，并核对退款、核销及不同渠道的统计口径。"
+        }
+      ],
+      "budget_inquiries": [
+        {"item": "达人合作", "quote_status": "根据人选与内容形式询价"},
+        {"item": "追加拍摄", "quote_status": "根据首轮素材表现决定"}
+      ],
+      "measurement_metrics": [
+        {"metric": "有效咨询", "definition": "明确询问套餐、预约或到店方式的咨询", "period": "每周", "adjustment_action": "调整内容主题与页面信息"},
+        {"metric": "到店核销", "definition": "活动周期内完成到店并核销的订单", "period": "每周", "adjustment_action": "检查套餐吸引力和核销流程"},
+        {"metric": "咨询到核销转化", "definition": "完成核销人数除以有效咨询人数", "period": "每两周", "adjustment_action": "优化客服话术和门店承接"}
+      ],
+      "action_plans": [
+        {"problem": "工作日晚餐空位较多", "action": "测试双人晚餐场景内容与套餐表达", "metric": "有效咨询、到店核销"},
+        {"problem": "到店链路信息不清晰", "action": "统一页面、客服与门店的预约和核销说明", "metric": "咨询到核销转化"},
+        {"problem": "投入节奏缺少依据", "action": "首轮小范围测试后再决定追加预算", "metric": "单次有效转化成本"}
+      ]
+    },
+    "sections": [],
+    "missing_fields": []
+  }
+}

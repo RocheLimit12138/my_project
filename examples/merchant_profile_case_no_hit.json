@@ -1,0 +1,64 @@
+{
+  "test_fixture": {
+    "name": "merchant_profile_case_no_hit",
+    "purpose": "验证没有适用历史案例时仍可生成营销方案",
+    "data_status": "simulated_example",
+    "expected_history_match": "none",
+    "index_policy": "do_not_index"
+  },
+  "merchant": {
+    "name": "青岛蓝岸工业传感器体验中心",
+    "category": "工业传感器与自动化设备展示体验",
+    "city": "青岛",
+    "address": "未提供",
+    "business_status": "试营业",
+    "business_hours": "未提供",
+    "seat_count": null,
+    "service_area": "面向中小制造企业提供设备展示、选型咨询和预约演示"
+  },
+  "current_situation": {
+    "offline_traffic": "每周约 8 到 12 组预约或临时到访，数据为模拟测试数据",
+    "online_presence": "尚未形成稳定的内容发布和线索跟踪流程，数据为模拟测试描述",
+    "conversion": "尚无连续三个月的有效询盘、到访和成交记录，不能视为真实业绩",
+    "known_strengths": [
+      "可以安排产品现场演示",
+      "可根据客户工况提供初步选型建议",
+      "拥有若干可公开展示的设备样机"
+    ],
+    "known_problems": [
+      "目标客户画像尚未细分",
+      "缺少可复用的案例内容",
+      "预约后的跟进节点和负责人尚未固定"
+    ]
+  },
+  "marketing_goal": {
+    "primary_goal": "在 56 天内获得更多有效企业客户预约",
+    "secondary_goals": [
+      "提高本地制造企业对体验中心的认知",
+      "建立从内容咨询到到店演示的线索记录"
+    ],
+    "target_audience": "青岛及周边中小制造企业的设备负责人、自动化工程师和采购负责人"
+  },
+  "constraints": {
+    "budget_upper_limit_rmb": 12000,
+    "period_days": 56,
+    "staffing": "1 名销售和 1 名技术人员兼职执行，具体排班待确认",
+    "compliance_notes": [
+      "不得把模拟询盘或预约数字写成真实业绩",
+      "产品性能、客户案例和报价均需在发布前核验",
+      "不得虚构客户名称、合同金额或交付结果"
+    ]
+  },
+  "available_materials": {
+    "product_catalog": "有，版本和完整性待确认",
+    "customer_case_material": "无可直接公开使用的已核验客户案例",
+    "visual_assets": "有少量设备照片，授权和拍摄信息待确认",
+    "historical_marketing_cases": "未提供适用历史案例"
+  },
+  "expected_handling": {
+    "history_retrieval": "允许无命中",
+    "output_requirement": "仍需生成完整八章营销方案",
+    "source_requirement": "不得生成虚构历史案例来源；通用建议应标记为通用方法或待核验事项",
+    "uncertainty_requirement": "对地址、营业时间、产品参数、预算明细和实际业绩保留待确认标记"
+  }
+}

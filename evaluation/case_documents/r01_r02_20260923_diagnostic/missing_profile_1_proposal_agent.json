@@ -1,0 +1,302 @@
+{
+  "chapters": [
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供（未核验，来源标记为虚构演示资料）：品牌为“示例烧鸟门店（虚构）”，品类为日式烧鸟，所在城市为成都。除以上三项外，其余经营信息尚未提供。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "具体地址、适用门店数量均未提供，因此方案无法界定适用门店范围；门店数量与适用范围待确认，后续正文不得表述为单店或全品牌覆盖。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "主营产品、客单价、经营阶段、经营现状、营业时段与承接能力均缺失，尚不能建立可用于推广决策的商家画像；需向商家补充上述字段并核对资料时间范围。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议先完成一页经营信息登记（品牌、品类、门店范围、主推产品、价格区间、营业时间、出餐上限），作为后续问题诊断、客群与目标设定的统一底稿。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "business_profile"
+    },
+    {
+      "points": [
+        {
+          "kind": "limitation",
+          "text": "商家未提供经营现状、已知问题与经营基线，因此本期不能确认主要问题，也不宜直接推断“流量不足”或“价格过高”等结论。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议先收集最近 28 天分时段订单、复购率、套餐详情访问与付费转化、退款原因、承诺内出餐率等数据，再按“经营影响＋紧迫程度”排序 1—3 个优先问题。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设：若分时段数据显示某时段订单明显偏低且该时段有余位，问题可能出在缺少固定消费理由或套餐信息不清；需用顾客访谈与素材测试区分口味、距离与价格因素。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "问题确认前只做低成本验证（分时数据整理、顾客访谈、两版素材对照），不先行投放，避免把原因猜测当作确定结论。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "problem_analysis"
+    },
+    {
+      "points": [
+        {
+          "kind": "limitation",
+          "text": "仅有城市（成都），具体地址与商圈资料未提供，因此不能判断周边人群、消费水平、客流强度与竞争情况，相关结论均需现场调查后才能给出。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议补充门店详细地址，并安排首周实地核查：步行与公共交通到达时长、停车条件、周边业态构成、工作日晚间半小时客流，拍摄“出口到店”路线。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设：推广范围可能在 1.5—3 公里，需以实际到店成本、现有客源分布与承接能力共同确定；在地址缺失阶段不对任何门店套用固定半径。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "消费时段与竞争情况均无资料，暂不能确定投放窗口和差异化方向；需在实地调查后补充，并注明资料来源与采集时间。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "location_analysis"
+    },
+    {
+      "points": [
+        {
+          "kind": "limitation",
+          "text": "目标客群与主营产品均未提供，核心客群、次要客群、消费场景、价格接受度与选择理由均无法确认，本期不依据品类或地段编造年龄、收入与占比。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议先用现有订单与顾客反馈建立客群底稿：抽样订单询问来源与同行人数，访谈 20 名附近顾客，按“谁、什么场景、为什么选这家”记录，再划分优先人群。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设：核心人群可能为附近工作日晚餐的两人顾客，次要人群为小聚与老顾客；该假设需订单结构或访谈结果支持，当前仅作为待验证方向。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "价格接受度缺少客单价与成本资料，暂不能确定套餐价位区间；需先补充客单价与套餐成本后判断。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "audience_analysis"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供（未核验）：预算上限为 12,000 元，推广周期为 56 天。以上为投入与周期约束，不构成经营目标，也不代表已确认报价。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "商家期望目标与经营基线均未提供，暂不能给出订单增长、转化率或复购率的具体目标值；任何增长比例在此阶段都缺乏测算依据。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议先确定观察指标与口径：以启动日前连续 28 天为基线（POS 已结账订单、剔除退款与员工餐），第 5—8 周按相同天数与星期结构对比，并把具体目标值保留为待确认。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "目标设定应与预算、周期和门店承接能力匹配；在承接能力未知前，先以“完成基线建立并稳定关键服务指标”为第一阶段目标。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "goals"
+    },
+    {
+      "points": [
+        {
+          "kind": "limitation",
+          "text": "已知问题、主营产品与意向平台均未提供，因此暂不能确定主推套餐内容、活动机制、渠道选择与内容方向；价格与优惠力度也缺少成本依据。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议先补齐三件事再设计活动：主推产品与成本、可承接的时段与桌数上限、可选平台与账号权限；完成后按“解决什么问题、面向谁、如何到店”逐项明确策略。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设：若验证显示工作日晚间有余位且两人用餐需求明确，可将双人套餐作为主要引流产品，并配套预约与提前预点机制；该方向需问题诊断结果支持后启用。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "内容方向建议以真实份量、明确价格与可到店时段为重点，转化路径保持“内容 → 套餐详情 → 购买或预约 → 到店核销”，并说明各渠道承担的任务。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "平台规则、利润与接待能力尚未明确，活动上线前需逐项确认；相关限制未确认前不承诺任何优惠力度。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "strategy"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供（未核验）：预算上限 12,000 元，周期 56 天。该金额为预算上限，非已确认报价，具体分项金额见预算表。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议按“准备（第 1 周）→ 小范围测试（第 2 周）→ 验证与调整（第 3—4 周）→ 扩大执行（第 5—8 周）”安排；扩大执行应有明确前置条件，如产品稳定出餐、退款原因可追踪、单位获客成本可控。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "每项任务需明确负责人（未确定时写“拟定岗位，待确认”）、完成时间、交付物与验收标准；建议每日核对库存与核销，每周固定一次 30 分钟复盘。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "执行约束未提供，套餐成本、询价结果与人员产能均未知，预算分项为建议分配而非实际报价，执行前需按实际询价调整。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "execution_budget"
+    },
+    {
+      "points": [
+        {
+          "kind": "limitation",
+          "text": "经营基线与效果衡量方案均未提供，暂无可靠阈值依据；因此不给出具体调整阈值，先通过小范围测试建立基线再确定。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议明确看什么、多久看一次：POS 与核销台账每日（实付订单、退款、每单实收）、出餐记录每日（承诺内出餐率）、广告与详情后台每周、复购队列双周。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "指标口径需与目标章节一致：区分曝光、成交、核销与经营收益，不使用浏览量单独判断经营效果，并注明是否剔除退款与拆单。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "复盘应记录节假日、天气、门店活动与数据缺失等影响，避免将同期变化直接解释为推广带来的结果；每次调整前后动作与结果留痕，作为下一轮决策依据。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "measurement"
+    }
+  ],
+  "budget_items": [
+    {
+      "item": "内容拍摄与制作（建议分配，待询价）",
+      "amount_yuan": "2800"
+    },
+    {
+      "item": "线上定向投放（建议分配，含首周小额测试）",
+      "amount_yuan": "4000"
+    },
+    {
+      "item": "本地创作者合作（建议分配，人数与费用待确认）",
+      "amount_yuan": "2000"
+    },
+    {
+      "item": "复购激励物料与赠品成本（建议分配，成本待核）",
+      "amount_yuan": "1000"
+    },
+    {
+      "item": "门店物料与来源标识（建议分配，规格待确认）",
+      "amount_yuan": "700"
+    },
+    {
+      "item": "机动预算（复盘后按需审批，建议保留）",
+      "amount_yuan": "1500"
+    }
+  ],
+  "budget_note": "预算上限为商家提供的 12,000 元（未核验），推广周期 56 天。上表为建议分配，不是已确认报价；合计 12,000 元，未超上限。套餐成本、平台佣金、创作者报价与赠品单价均未提供，实际金额需询价后调整；未使用部分建议保留，不作追加承诺。"
+}

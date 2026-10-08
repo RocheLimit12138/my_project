@@ -1,0 +1,40 @@
+{
+  "name": "历史案例命中测试·成都川味小馆（虚构）",
+  "industry": "川菜餐饮",
+  "city": "成都",
+  "address": null,
+  "store_count": 1,
+  "business_stage": "开业不足一年（虚构测试设定）",
+  "products": "川味家常菜、双人套餐与晚餐小食（虚构测试设定）",
+  "average_spend_yuan": 88,
+  "business_status": "工作日晚餐时段仍有空位（虚构测试设定）",
+  "problems": [
+    "工作日晚餐订单不足（虚构测试问题）",
+    "线上内容和到店转化缺少连续记录（虚构测试问题）"
+  ],
+  "location_notes": null,
+  "target_customers": "周边白领、附近居民与两人用餐客群（虚构假设，待核实）",
+  "baseline_metrics": [
+    {
+      "name": "实付订单",
+      "value": "760",
+      "unit": "单",
+      "period": "测试日前连续28天",
+      "source": "虚构POS数据，仅用于案例引用测试"
+    }
+  ],
+  "goals": [
+    "提升工作日晚餐订单，具体目标值待基线复核",
+    "验证内容、套餐和到店转化的记录方式"
+  ],
+  "budget_yuan": 12000,
+  "campaign_days": 56,
+  "platforms": [
+    "大众点评",
+    "抖音",
+    "小红书"
+  ],
+  "constraints": "优先小范围试行；活动价格、产能和渠道费用待确认",
+  "measurement_plan": null,
+  "data_source": "全部为虚构测试资料，仅用于验证历史案例检索、引用和事实边界"
+}

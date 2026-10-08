@@ -1,0 +1,7 @@
+{
+  "http_status": 200,
+  "finish_reason": "stop",
+  "completion_tokens": 4136,
+  "content_characters": 8681,
+  "schema_valid": true
+}

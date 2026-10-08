@@ -1,0 +1,55 @@
+{
+  "approved_scope": [
+    "01_椒响里_川味小馆线上营销方案.pdf",
+    "02_沸巷来信_社区火锅线上营销方案.pdf",
+    "03_禾序_轻食厨房线上营销方案.pdf",
+    "04_麦屿晨间_烘焙早午餐线上营销方案.pdf",
+    "05_爪印慢半拍_宠物咖啡线上营销方案.pdf",
+    "川湘菜火锅-阿嫂印象小红书BF.pptx",
+    "炭间晚风_餐饮线上营销方案.pptx"
+  ],
+  "approved_chunks": 96,
+  "started_at": "2026-09-22T12:55:39.162613+00:00",
+  "before": {
+    "langchain": {
+      "count": 559,
+      "sha256": "c11fd539cba7f238fee0a2bdf2a0ef995e1002c76089cfd699d075393ae76c13"
+    },
+    "sales_scripts": {
+      "count": 54,
+      "sha256": "0694fa814c8f8b13a8c4511f26f7a69129989c96d080959bc4197a81545acfb6"
+    }
+  },
+  "status": "indexed_and_smoke_verified",
+  "after": {
+    "langchain": {
+      "count": 559,
+      "sha256": "c11fd539cba7f238fee0a2bdf2a0ef995e1002c76089cfd699d075393ae76c13"
+    },
+    "sales_scripts": {
+      "count": 54,
+      "sha256": "0694fa814c8f8b13a8c4511f26f7a69129989c96d080959bc4197a81545acfb6"
+    },
+    "case_documents": {
+      "count": 96,
+      "sha256": "197ae7aa3e9afc0df459b8d31d04c46984630ac3c3b5bdc43d23be43afbcced4"
+    }
+  },
+  "collection_state": "ready",
+  "dimension": 768,
+  "counts_by_source": {
+    "01_椒响里_川味小馆线上营销方案.pdf": 11,
+    "02_沸巷来信_社区火锅线上营销方案.pdf": 11,
+    "03_禾序_轻食厨房线上营销方案.pdf": 11,
+    "04_麦屿晨间_烘焙早午餐线上营销方案.pdf": 11,
+    "05_爪印慢半拍_宠物咖啡线上营销方案.pdf": 11,
+    "川湘菜火锅-阿嫂印象小红书BF.pptx": 24,
+    "炭间晚风_餐饮线上营销方案.pptx": 17
+  },
+  "counts_by_kind": {
+    "simulated_example": 72,
+    "unverified": 24
+  },
+  "finished_at": "2026-09-22T12:58:21.312784+00:00",
+  "smoke_report": "index_verification.json"
+}

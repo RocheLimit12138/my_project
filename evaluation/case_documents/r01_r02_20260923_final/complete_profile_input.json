@@ -1,0 +1,38 @@
+{
+  "name": "完整资料验证门店（虚构）",
+  "industry": "日式烧鸟",
+  "city": "成都",
+  "address": "成都测试片区虚构铺位 TEST-01；不是实际门牌",
+  "store_count": 3,
+  "business_stage": "开业不足一年（演示设定）",
+  "products": "现烤烧鸟、双人晚餐与日式小食（演示设定）",
+  "average_spend_yuan": 87.0,
+  "business_status": "工作日晚间仍有空位（演示设定）",
+  "problems": [
+    "工作日晚间订单不足（演示问题）"
+  ],
+  "location_notes": "模拟设定：居民与办公混合区域，以晚餐堂食为主；客流及竞店尚待实地核查。",
+  "target_customers": "周边白领与两人用餐客群（演示假设，待核实）",
+  "baseline_metrics": [
+    {
+      "name": "实付订单",
+      "value": "780",
+      "unit": "单",
+      "period": "演示日前连续28天",
+      "source": "模拟POS数据，仅用于接口测试"
+    }
+  ],
+  "goals": [
+    "提升工作日晚间订单，具体目标值待评估"
+  ],
+  "budget_yuan": 12000.0,
+  "campaign_days": 56,
+  "platforms": [
+    "大众点评",
+    "抖音",
+    "小红书"
+  ],
+  "constraints": "优先小范围试行；产能和活动价格待确认",
+  "measurement_plan": "模拟流程：门店运营每日汇总订单与核销记录，每周复盘；复购按观察满30日的顾客队列统计。",
+  "data_source": "全部为自动化开发用虚构设定，不是真实商家或业务审核通过的数据"
+}

@@ -1,0 +1,64 @@
+{
+  "test_fixture": {
+    "name": "merchant_profile_restaurant_no_hit",
+    "purpose": "验证餐饮商家没有同类型历史案例时仍可生成营销方案",
+    "data_status": "simulated_example",
+    "expected_history_match": "no_same_restaurant_type",
+    "index_policy": "do_not_index"
+  },
+  "merchant": {
+    "name": "厦门谷雨无麸质厨房",
+    "category": "无麸质轻食餐厅",
+    "city": "厦门",
+    "address": "未提供",
+    "business_status": "试营业",
+    "business_hours": "未提供",
+    "seat_count": null,
+    "service_area": "提供无麸质主食、轻食套餐和到店用餐服务，不提供医疗诊断或治疗建议"
+  },
+  "current_situation": {
+    "offline_traffic": "工作日晚餐时段到店人数偏少，尚无完整客流记录，描述为模拟测试信息",
+    "online_presence": "尚未形成稳定的内容发布、团购核销和到店转化记录，描述为模拟测试信息",
+    "conversion": "没有连续三个月的曝光、咨询、团购核销和复购数据，不能视为真实业绩",
+    "known_strengths": [
+      "菜单明确标注无麸质餐品和主要原料",
+      "可提供适合一人用餐的套餐",
+      "有少量可用于内容制作的餐品照片"
+    ],
+    "known_problems": [
+      "消费者对无麸质餐饮的理解差异较大",
+      "缺少可复用的到店消费场景内容",
+      "团购套餐和复购触达流程尚未确定"
+    ]
+  },
+  "marketing_goal": {
+    "primary_goal": "在 56 天内提升工作日晚餐时段的有效到店和团购核销",
+    "secondary_goals": [
+      "提高本地消费者对无麸质轻食餐厅的认知",
+      "建立从内容曝光、咨询、团购购买到到店核销的记录"
+    ],
+    "target_audience": "厦门本地关注饮食原料、轻食体验和工作日晚餐便利性的消费者"
+  },
+  "constraints": {
+    "budget_upper_limit_rmb": 12000,
+    "period_days": 56,
+    "staffing": "店长和 1 名店员兼职执行，具体排班待确认",
+    "compliance_notes": [
+      "不得把模拟客流、核销或复购数字写成真实业绩",
+      "餐品原料、无麸质制作流程和过敏原信息均需在发布前核验",
+      "不得作出疾病治疗、营养疗效或绝对安全承诺"
+    ]
+  },
+  "available_materials": {
+    "menu": "有，价格、原料和供应状态待确认",
+    "customer_case_material": "无可直接公开使用的已核验顾客案例",
+    "visual_assets": "有少量餐品照片，授权和拍摄信息待确认",
+    "historical_marketing_cases": "未提供无麸质轻食餐厅类型的适用历史案例"
+  },
+  "expected_handling": {
+    "history_retrieval": "可以返回餐饮通用资料，但不应声称存在同类型历史案例",
+    "output_requirement": "仍需生成完整八章营销方案",
+    "source_requirement": "不得把其他餐饮类型包装成无麸质轻食成功案例，不得生成虚构历史案例来源",
+    "uncertainty_requirement": "对地址、营业时间、座位数、菜单价格、过敏原信息、预算明细和实际业绩保留待确认标记"
+  }
+}

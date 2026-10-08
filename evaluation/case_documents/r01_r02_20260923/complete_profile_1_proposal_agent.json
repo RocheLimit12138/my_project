@@ -1,0 +1,393 @@
+{
+  "chapters": [
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "商家画像（据商家提供、未核验）：品牌“完整资料验证门店（虚构）”，品类日式烧鸟，位于成都，门店数量3家。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "analysis",
+          "text": "据商家提供、未核验：主营现烤烧鸟、双人晚餐与日式小食（演示设定），客单价约87元，经营阶段为开业不足一年（演示设定），经营现状为工作日晚间仍有空位（演示设定）。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "地址仅为“成都测试片区虚构铺位 TEST-01；不是实际门牌”，不是实际门牌；营业时段、座位数、承接能力均未提供，门店数量与适用范围待确认。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "本方案门店适用范围待确认：资料提供了3家的门店数量，但未说明方案覆盖哪一家或哪几家门店，不能由数量推断具体门店身份或全品牌覆盖。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "全部资料为自动化开发用虚构设定，不是真实商家或经业务审核通过的数据；对外使用前需补充真实品牌、地址、菜单与价格资料。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议补充：门店清单与方案适用门店、完整地址与非虚构门牌、营业时段与座位数、近期菜单与价格。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "business_profile"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供、未核验的演示问题：工作日晚间订单不足；经营现状为工作日晚间仍有空位（演示设定）。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "分时段订单数据不足：仅有“实付订单780单/演示日前连续28天”的模拟POS口径，未提供工作日与周末、各时段的拆分，暂不能判断工作日晚间缺口的具体规模。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设一：周边顾客缺少工作日晚餐的固定到店理由。验证方式建议：整理工作日分时段订单，并访谈到店与未到店顾客对口味、距离和价格的看法。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设二：套餐信息未讲清份量与可用时间，导致详情页转化受阻。验证方式建议：以同一套餐、同一价格测试两版头图与说明，累计足够有效访问后再比较。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设三：高峰出餐或备料影响体验。验证方式建议：连续记录接单、首菜与齐菜时间，核对承诺出餐与实际出餐的差距。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议按“先确认产品与服务、再增加付费流量”的顺序验证；在补充数据前不要直接下“流量不足”“价格过高”的结论。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "problem_analysis"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供、未核验：位置描述为“模拟设定：居民与办公混合区域，以晚餐堂食为主；客流及竞店尚待实地核查”。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "商圈、周边人群、到店便利性、消费时段与竞争情况均未经核验：现有位置说明由商家提供且为模拟设定，未附客流或竞店实测数据，不能据此断言人流量、消费水平与竞争强度。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "地址为测试片区虚构铺位，不构成真实门牌，无法做交通与步行便利性判断；门店数量与适用范围同样待确认。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设：周边白领与两人用餐客群（演示假设，待核实）可能构成晚餐主要来源。验证方式建议：实走路线、按工作日定点记录客流，并抽样询问顾客来源。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议开跑前完成：实走门店周边路线，连续若干个工作日晚按半小时记录客流，走访同商圈餐饮竞店并记录其价格与主打产品。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "推广范围建议按“产品适合的消费场景+到店成本+现有客源+执行条件”逐店核定，不为3家门店套用同一半径；核定前半径保留待确认。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "location_analysis"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供、未核验：目标客群描述为“周边白领与两人用餐客群（演示假设，待核实）”，产品为现烤烧鸟、双人晚餐与日式小食（演示设定），客单价约87元。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设：核心客群为下班后两人用餐的附近白领，需求是选择简单、总价清楚、能吃到热餐。此为演示假设，无订单或访谈依据。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "hypothesis",
+          "text": "待验证假设：次要客群为附近两人或小规模朋友聚餐，更关注份量、环境与可否预约。需通过到店访谈或订单备注验证。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "客群判断缺少依据：未提供顾客订单结构、访谈记录或会员数据，不能给出年龄、收入、占比等具体画像。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议先做小样本验证：抽样询问顾客来源与用餐人数结构，统计工作日与周末的用餐人数分布，据此确认优先服务哪类人群。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "audience_analysis"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供、未核验：商家期望为“提升工作日晚间订单，具体目标值待评估”；基线仅有“实付订单780单/演示日前连续28天”的模拟POS数据。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "基线口径不足：未提供周一至周日结构、分时段订单、退款与拆单口径，无法按相同天数与星期结构计算可比基线，因此具体目标值保留待确认。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议先统一口径再定目标：以POS已结账订单为准，剔除退款、员工餐与拆单；观察周期、单位与门店范围与基线保持一致。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议在首个小范围测试期内先建立工作日晚餐日均订单、详情访问到付费转化、承诺内出餐率等观察指标，用于下一步确定目标值。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "方案周期为56天（商家提供），但未提供产能上限与预算使用节奏，目标与承接能力、预算是否匹配尚待确认，不作增长比例承诺。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "goals"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "策略需对应问题“工作日晚间订单不足（演示问题）”，面向演示假设中的周边白领与两人用餐客群，产品为现烤烧鸟、双人晚餐与日式小食。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议以双人晚餐作为主要引流产品，围绕工作日晚间设计明确份量、包含内容与可用时段的套餐，让顾客能一眼判断“几个人、多少钱、多久能上菜”。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "建议设置复购机制：第二次实付达到约定门槛赠指定小食，每位顾客限一次，不与好评挂钩，并明示不与其他赠品叠加。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "渠道建议分工：大众点评承接搜索与套餐详情，抖音做附近内容触达，小红书做场景与份量说明；不要求三个平台同时投入同等资源，可先选一到两个小范围测试。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "内容方向建议具体到主题与引导动作：一是“两个人下班能吃到什么”，拍整桌实拍、价格与份量；二是“这份烧鸟从下单到上桌要多久”，拍真实出炉与上桌时间，结尾引导提前预点并标注时间以当日为准。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "执行前待确认：套餐成本、活动价格、高峰期产能与出品时间、平台活动规则与账号权限；约束条件已注明“产能和活动价格待确认”。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "strategy"
+    },
+    {
+      "points": [
+        {
+          "kind": "recommendation",
+          "text": "建议按“准备→小范围测试→调整→扩大执行”推进：准备阶段完成基线报表、套餐成本卡与核销演练；测试阶段上线少量素材并逐日登记来源与订单。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "阶段交付建议：准备阶段交付套餐成本卡与核销演练记录；测试阶段交付素材测试表与每日来源记录；复盘阶段交付调整结论与配额调整记录。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "负责人未确定：资料未提供组织与人员安排，各任务负责人只能写“拟定岗位，待确认”（如门店运营、内容制作、投放与数据整理）。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "门店数量为3家，但方案适用门店范围待确认，执行与预算需明确是全品牌还是其中部分门店分摊，避免按数量自行推断覆盖范围。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "预算上限为12,000元（商家提供、未核验），未提供任何已确认报价与费用明细，分项金额需先询价后确定；预算表为建议分配，不是已确认报价。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "验收建议：每项任务明确完成时间、交付物与验收标准（如套餐规则与门店实际一致、素材测试表完整、赠品与核销可对账），并在对应阶段复盘时逐项核对。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "execution_budget"
+    },
+    {
+      "points": [
+        {
+          "kind": "analysis",
+          "text": "据商家提供、未核验的测量方案：门店运营每日汇总订单与核销记录，每周复盘；复购按观察满30日的顾客队列统计。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "指标建议分三层：曝光与访问（内容观看、详情访问）、成交与核销（付费订单、核销单）、经营结果（每单实收、退款、复购）；不能仅凭浏览量判断经营效果。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "统计口径建议与基线一致：以POS已结账订单为主，剔除退款、员工餐与拆单；平台券码与POS单号一一对应并跨渠道去重；复购以成熟首购队列计算。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "调整阈值缺少可靠依据：基线仅有模拟POS的28天订单总数，未提供分时段、转化率与出餐准时率基线，阈值应通过小范围测试建立基线后再确定，当前保留待确认。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "recommendation",
+          "text": "复盘安排建议：每日核对订单与核销记录，每周对照同一星期结构复盘一次，双周检查复购队列；复盘时同时记录节假日、天气与门店自身活动影响。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        },
+        {
+          "kind": "limitation",
+          "text": "数据全部为自动化开发用虚构设定，不能作为真实业绩证明；且未提供数据采集责任人与系统取数权限，效果评估的可行性尚待确认。",
+          "source_ids": [
+            "merchant_profile"
+          ]
+        }
+      ],
+      "key": "measurement"
+    }
+  ],
+  "budget_items": [
+    {
+      "item": "拍摄与内容制作（建议分配，待询价确认）",
+      "amount_yuan": "2800"
+    },
+    {
+      "item": "本地定向投放（建议分配，待确认）",
+      "amount_yuan": "4000"
+    },
+    {
+      "item": "本地创作者合作（建议分配，待确认）",
+      "amount_yuan": "2000"
+    },
+    {
+      "item": "复购赠品成本（建议分配，待确认）",
+      "amount_yuan": "1000"
+    },
+    {
+      "item": "菜单与来源物料（建议分配，待确认）",
+      "amount_yuan": "700"
+    },
+    {
+      "item": "机动预算（建议分配，周复盘后审批使用）",
+      "amount_yuan": "1500"
+    }
+  ],
+  "budget_note": "商家预算上限为12,000元（据商家提供、未核验）。上表为建议分配，合计12,000元，不代表已确认报价；所有分项金额均需完成询价与套餐成本核算后确认，套餐折扣与赠品是否重复计入、费用涵盖范围也需在执行前逐项核对。"
+}

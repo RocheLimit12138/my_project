@@ -1,0 +1,15 @@
+{
+  "label": "original_literal_checks",
+  "blocked": true,
+  "failed_paths": [
+    "chapters[2].points[1]",
+    "chapters[2].points[4]",
+    "chapters[5].points[4]"
+  ],
+  "expected_r02_paths": [
+    "chapters[2].points[1]",
+    "chapters[2].points[4]",
+    "chapters[5].points[4]"
+  ],
+  "all_expected_paths_flagged": true
+}

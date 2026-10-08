@@ -1,0 +1,7 @@
+INFO:     127.0.0.1:2988 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14564 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:14565 - "POST /agent/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:4565 - "POST /agent/operations/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11680 - "POST /agent/chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:11684 - "POST /agent/operations/export HTTP/1.1" 200 OK
+INFO:     127.0.0.1:2263 - "GET /health HTTP/1.1" 200 OK

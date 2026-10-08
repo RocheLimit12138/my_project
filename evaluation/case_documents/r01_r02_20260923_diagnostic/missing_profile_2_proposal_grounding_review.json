@@ -1,0 +1,244 @@
+{
+  "checks": [
+    {
+      "path": "chapters[0].points[0]",
+      "verdict": "supported",
+      "reason": "品牌、品类、城市与商家资料一致，其余信息缺失表述准确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[1]",
+      "verdict": "supported",
+      "reason": "地址与门店数量确为缺失，未推断单店或全品牌。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[2]",
+      "verdict": "supported",
+      "reason": "所列字段均在缺失清单中，建议补充属明确缺口。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[3]",
+      "verdict": "supported",
+      "reason": "仅为信息登记建议，未夹带未提供的商家事实。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[1].points[0]",
+      "verdict": "supported",
+      "reason": "problems、经营基线与现状未提供，未确认主要问题。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[1].points[1]",
+      "verdict": "supported",
+      "reason": "数据收集建议明确，未把缺失事实包装为已知结论。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[1].points[2]",
+      "verdict": "supported",
+      "reason": "以“待验证假设”标明条件，未陈述为确定事实。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[1].points[3]",
+      "verdict": "supported",
+      "reason": "低成本验证建议合理，未编造商家经营事实。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[2].points[0]",
+      "verdict": "supported",
+      "reason": "仅有城市，地址与商圈缺失，结论待现场调查是准确的。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[2].points[1]",
+      "verdict": "supported",
+      "reason": "实地核查建议仅指向缺失地址，未补全未提供信息。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[2].points[2]",
+      "verdict": "supported",
+      "reason": "半径以“可能”假设提出并声明地址缺失时不套用。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[2].points[3]",
+      "verdict": "supported",
+      "reason": "消费时段与竞争资料缺失，未给出确定投放窗口。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[3].points[0]",
+      "verdict": "supported",
+      "reason": "目标客群与产品缺失，明确不编造年龄收入占比。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[3].points[1]",
+      "verdict": "supported",
+      "reason": "客群底稿方法为建议，未声称已有订单与访谈。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[3].points[2]",
+      "verdict": "supported",
+      "reason": "人群方向标注待验证假设，未作为已确认结论。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[3].points[3]",
+      "verdict": "supported",
+      "reason": "客单价与成本缺失，价位区间待补充后判断。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[0]",
+      "verdict": "supported",
+      "reason": "预算与周期与商家资料一致，且声明非报价。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[1]",
+      "verdict": "supported",
+      "reason": "目标与基线缺失，未给出具体增长目标值。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[2]",
+      "verdict": "supported",
+      "reason": "观察口径为建议，具体目标保留待确认。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[3]",
+      "verdict": "supported",
+      "reason": "第一阶段目标为建议，承接能力缺失已声明。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[5].points[0]",
+      "verdict": "supported",
+      "reason": "产品、平台与成本缺失，未确定套餐或渠道。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[5].points[1]",
+      "verdict": "supported",
+      "reason": "补齐信息后再设计的建议明确，未夹带商家事实。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[5].points[2]",
+      "verdict": "supported",
+      "reason": "双人套餐方向为待验证假设，需诊断结果支持。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[5].points[3]",
+      "verdict": "supported",
+      "reason": "内容与转化路径为建议，未声称已验证。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[5].points[4]",
+      "verdict": "supported",
+      "reason": "平台规则、利润与承接能力未明确，未承诺优惠。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[0]",
+      "verdict": "supported",
+      "reason": "预算与周期与商家资料一致，非报价表述准确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[1]",
+      "verdict": "supported",
+      "reason": "阶段安排为建议，扩大执行附前置条件。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[2]",
+      "verdict": "supported",
+      "reason": "负责人未确定时写拟定岗位待确认，建议明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[3]",
+      "verdict": "supported",
+      "reason": "成本与产能未知，预算分项声明为建议分配。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[7].points[0]",
+      "verdict": "supported",
+      "reason": "基线与衡量方案缺失，未给具体调整阈值。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[7].points[1]",
+      "verdict": "supported",
+      "reason": "看什么与频率为监控建议，未补全商家事实。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[7].points[2]",
+      "verdict": "supported",
+      "reason": "指标口径建议与缺失现状一致，未编造数据。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[7].points[3]",
+      "verdict": "supported",
+      "reason": "复盘留痕建议明确，未把同期变化断言为推广结果。",
+      "evidence": []
+    },
+    {
+      "path": "budget_note",
+      "verdict": "needs_revision",
+      "reason": "预算分项与历史D18的2,800/4,000/2,000/1,000/700/1,500相同，属历史案例金额移植，且未用逐字摘录支持。",
+      "evidence": []
+    },
+    {
+      "path": "budget_items[0]",
+      "verdict": "needs_revision",
+      "reason": "2,800元与D18历史案例拍摄制作金额一致，属历史金额移植。",
+      "evidence": []
+    },
+    {
+      "path": "budget_items[1]",
+      "verdict": "needs_revision",
+      "reason": "4,000元与D18历史案例本地定向投放金额一致，属历史金额移植。",
+      "evidence": []
+    },
+    {
+      "path": "budget_items[2]",
+      "verdict": "needs_revision",
+      "reason": "2,000元与D18历史案例创作者合作金额一致，属历史金额移植。",
+      "evidence": []
+    },
+    {
+      "path": "budget_items[3]",
+      "verdict": "needs_revision",
+      "reason": "1,000元与D18历史复购赠品金额一致，属历史金额移植。",
+      "evidence": []
+    },
+    {
+      "path": "budget_items[4]",
+      "verdict": "needs_revision",
+      "reason": "700元与D18历史菜单物料金额一致，属历史金额移植。",
+      "evidence": []
+    },
+    {
+      "path": "budget_items[5]",
+      "verdict": "needs_revision",
+      "reason": "1,500元与D18历史机动预算金额一致，属历史金额移植。",
+      "evidence": []
+    }
+  ]
+}

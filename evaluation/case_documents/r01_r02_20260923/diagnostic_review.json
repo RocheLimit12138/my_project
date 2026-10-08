@@ -1,0 +1,449 @@
+{
+  "checks": [
+    {
+      "path": "chapters[0].points[0]",
+      "verdict": "needs_revision",
+      "reason": "名称、品类、城市有依据，但'本次仅针对这一家门店'是在 store_count 缺失下补全了单店事实，属无依据补全。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[1]",
+      "verdict": "supported",
+      "reason": "地址缺失属实，后续内容为明确的影响说明与补充请求，未夹带未提供事实。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[2]",
+      "verdict": "supported",
+      "reason": "store_count 缺失下正确表述为待确认，并以条件句提示不得推广至全品牌，未补全门店数量。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[3]",
+      "verdict": "supported",
+      "reason": "所列字段确实缺失，补充动作明确，未把缺失事实包装为已知。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[0].points[4]",
+      "verdict": "needs_revision",
+      "reason": "三个案例名在 cited 段落中确实出现且标注虚构待核验，但'其地址、客单价、订单量、预算分项'所对应的图表数据在 D1/D2/D3 的引用文本中被截断，D3 未含预算分项，属超出引用支持的概括。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[1].points[0]",
+      "verdict": "supported",
+      "reason": "problems、baseline_metrics 为空且 business_status 缺失属实，结论为不可推导具体问题并给出补充动作。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[1].points[1]",
+      "verdict": "supported",
+      "reason": "数值均逐项标注为模拟设定并声明不适用本店，框架属方法参考，引用与 D4 内容一致。",
+      "evidence": [
+        {
+          "source_id": "D4",
+          "quote": "验证顺序：先确认产品和服务，再逐步增加付费流量。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[1].points[2]",
+      "verdict": "supported",
+      "reason": "验证顺序与 D4 一致，空余时段以条件假设表述并明确未经确认不作结论。",
+      "evidence": [
+        {
+          "source_id": "D4",
+          "quote": "验证顺序：先确认产品和服务，再逐步增加付费流量。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[1].points[3]",
+      "verdict": "supported",
+      "reason": "四步为明确建议且标注待验证，包含与 D4 一致的访谈、两版素材测试等动作，未夹带商家事实。",
+      "evidence": [
+        {
+          "source_id": "D4",
+          "quote": "访谈 20 名附近顾客，区分口味、距离和价格问题。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[1].points[4]",
+      "verdict": "supported",
+      "reason": "三个指标均可在 D6 找到依据并标注为模拟基线，结论限于方法提示。",
+      "evidence": [
+        {
+          "source_id": "D6",
+          "quote": "错峰桌单\n10 桌 / 日"
+        },
+        {
+          "source_id": "D6",
+          "quote": "高峰候位流失\n约 22%"
+        },
+        {
+          "source_id": "D6",
+          "quote": "到期券核销率\n55%"
+        }
+      ]
+    },
+    {
+      "path": "chapters[2].points[0]",
+      "verdict": "supported",
+      "reason": "address 与 location_notes 为空属实，仅有城市不得推断周边情况，补充动作明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[2].points[1]",
+      "verdict": "supported",
+      "reason": "方法描述与 D7 的实走与客流记录一致，三个数值均标注为模拟设定并声明不得作为本店结论。",
+      "evidence": [
+        {
+          "source_id": "D7",
+          "quote": "首周实走路线，并连续 3 个工作日晚按半小时记录客流。竞店均为模拟样本。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[2].points[2]",
+      "verdict": "supported",
+      "reason": "以'若商家后续确认'的条件假设形式表述并标明待验证，与 D8 的商圈假设方向一致。",
+      "evidence": [
+        {
+          "source_id": "D8",
+          "quote": "成熟住宅叠加办公生活服务；平日下班消费更值得争取，旅游客群列\n为次要。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[2].points[3]",
+      "verdict": "supported",
+      "reason": "列出的竞争门店均可在 D7、D8 找到且已标注模拟样本，未宣称本店周边存在同类竞争。",
+      "evidence": [
+        {
+          "source_id": "D7",
+          "quote": "模拟竞争门店：日料 A；主要优势：环境与品牌认知；本店选择：突出真实份量、烧鸟现烤与双人总价"
+        },
+        {
+          "source_id": "D8",
+          "quote": "川菜 A / 步行圈（模拟）"
+        }
+      ]
+    },
+    {
+      "path": "chapters[2].points[4]",
+      "verdict": "supported",
+      "reason": "固定半径被明确否定，3 公里与 1.5 公里办公楼均标注为虚构设定，建议未夹带商家事实。",
+      "evidence": [
+        {
+          "source_id": "D7",
+          "quote": "主攻周边 3 公里"
+        },
+        {
+          "source_id": "D8",
+          "quote": "假设最近轨道站步行 8-12 分钟；停车不便。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[3].points[0]",
+      "verdict": "supported",
+      "reason": "target_customers 与 products 为空属实，结论限于不能给出客群结论并附补充动作。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[3].points[1]",
+      "verdict": "supported",
+      "reason": "方法参考与 D9 的消费动机划分一致，年龄、占比与价格均标注为模拟设定不得作为事实。",
+      "evidence": [
+        {
+          "source_id": "D9",
+          "quote": "核心 55% / 25 至 38 岁附近白领；消费需求与动机：下班两人吃热餐， / 希望选择简单、总价清楚。；适合推广的产品：¥188 双人晚餐 / 烧鸟搭配主食；触达方式：抖音附近内容 / 大众点评搜索"
+        }
+      ]
+    },
+    {
+      "path": "chapters[3].points[2]",
+      "verdict": "supported",
+      "reason": "该案例名与'明示份量、辣度、价格与出餐时间'的要求可在 D10 找到，并已声明不代表本店客群。",
+      "evidence": [
+        {
+          "source_id": "D10",
+          "quote": "“下班两个人，三道现炒刚好吃。”内容必须展示真实份量、辣度、\n价格与出餐时间范围。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[3].points[3]",
+      "verdict": "supported",
+      "reason": "占比数据与合规提醒均在 D11 有依据且已标明为该虚构案例内容，是否适用留待确认。",
+      "evidence": [
+        {
+          "source_id": "D11",
+          "quote": "重点说清“今天吃什么、几点能拿”。展示实际称重份量，不承诺减\n肥、治疗或具体体重变化。"
+        },
+        {
+          "source_id": "D11",
+          "quote": "核心：办公白领\n内容资源 60%"
+        },
+        {
+          "source_id": "D11",
+          "quote": "次核心：运动人群\n内容资源 25%"
+        },
+        {
+          "source_id": "D11",
+          "quote": "补充：同楼同事\n内容资源 15%"
+        }
+      ]
+    },
+    {
+      "path": "chapters[3].points[4]",
+      "verdict": "supported",
+      "reason": "来源抽样交叉比对与保留优先级均为明确建议，未预设资源占比，与 D9/D10 方法一致。",
+      "evidence": [
+        {
+          "source_id": "D10",
+          "quote": "抽样 50 笔订单问来源，3 个工作日\n定点记客流"
+        }
+      ]
+    },
+    {
+      "path": "chapters[4].points[0]",
+      "verdict": "supported",
+      "reason": "goals 与 baseline_metrics 缺失、预算 12000 与 56 天有依据，目标值保留待确认并给出补充动作。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[1],",
+      "verdict": "supported",
+      "reason": "仅说明目标待补充与需分别记录，未补全任何商家目标或缺漏。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[4].points[2]",
+      "verdict": "supported",
+      "reason": "T0/T1 口径与 D12 一致，所列数值均标注为模拟设定不构成本店基线或目标。",
+      "evidence": [
+        {
+          "source_id": "D12",
+          "quote": "T0 = 启动日前连续 28 天；T1 = 第 5-8 周。按相同天数与星期结构对比。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[4].points[3]",
+      "verdict": "supported",
+      "reason": "产能上限与成熟首购队列两点均可在 D14 找到，并明确产能数值仅为案例设定、本店待确认。",
+      "evidence": [
+        {
+          "source_id": "D14",
+          "quote": "20 个工作日均值，低于 90 单试运行产能。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[4].points[4]",
+      "verdict": "supported",
+      "reason": "四项观察指标为明确建议，T1 值留待基线确认；重复计收益参考可在 D13 找到。",
+      "evidence": [
+        {
+          "source_id": "D13",
+          "quote": "损耗改善单独评估，下页暂不把减损收益加入贡献测算，避免与食材\n成本变化重复计入。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[5].points[0]",
+      "verdict": "supported",
+      "reason": "problems、products、platforms 缺失属实，活动机制无法确定并给出补充动作。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[5].points[1]",
+      "verdict": "supported",
+      "reason": "三层结构与价格均在 D15 有依据，且逐项标注为模拟设定不得作为本店定价依据。",
+      "evidence": [
+        {
+          "source_id": "D15",
+          "quote": "产品策略：固定核心串品，按近 7 天销量备料，每两周只换 1 款限定产品。"
+        },
+        {
+          "source_id": "D15",
+          "quote": "活动：下班双人餐；价格与内容：¥188 / 烧鸟 8 串、小食 2 份、主食 2 份、基础饮品 2 杯；规则与承接：工作日 17:00 至 20:30。 / 每日限 8 套，提前预点，酒水另选。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[5].points[2]",
+      "verdict": "supported",
+      "reason": "脚本结构与内容验收要求均可在 D17 找到，并声明具体脚本需结合本店产品重写。",
+      "evidence": [
+        {
+          "source_id": "D17",
+          "quote": "0 至 3 秒：整桌实拍与价格。"
+        },
+        {
+          "source_id": "D17",
+          "quote": "内容验收：真实门店、实际份量、明确价格。顾客出镜需获得同意。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[5].points[3]",
+      "verdict": "supported",
+      "reason": "先承接后放量及测试节奏与 D16 的周次安排一致，均为建议而非已确认安排。",
+      "evidence": [
+        {
+          "source_id": "D16",
+          "quote": "周次：第 3 周；主要内容：2 条真实晚餐视频 / 1 篇下班场景笔记；上线与转化动作：第 1 位本地创作者体验， / 合作内容使用来源码；验收：统计新客核销 / 排查退款原因"
+        },
+        {
+          "source_id": "D16",
+          "quote": "周次：第 4 周；主要内容：2 条等待／预约视频 / 1 篇常见问题笔记；上线与转化动作：淘汰低转化素材， / 调整套餐配额与排班；验收：完成首月复盘 / 前月净增目标 100 单"
+        }
+      ]
+    },
+    {
+      "path": "chapters[5].points[4]",
+      "verdict": "supported",
+      "reason": "platforms 未指定属实，抖音、点评、小红书均被标注为该虚构案例的选择并留待确认。",
+      "evidence": [
+        {
+          "source_id": "D15",
+          "quote": "表格表头：第 1 列=活动；第 2 列=价格与内容；第 3 列=规则与承接"
+        }
+      ]
+    },
+    {
+      "path": "chapters[6].points[0]",
+      "verdict": "supported",
+      "reason": "四阶段建议与 D19 的阶段划分一致，负责人未确定时写拟定岗位，并已标注案例虚构。",
+      "evidence": [
+        {
+          "source_id": "D19",
+          "quote": "阶段：第 1 周 / 准备；负责人：店长、厨房主管；交付内容：基线报表、3 份活动成本卡、 / 套餐规则、账号权限与核销演练；放行条件：产品能稳定出餐， / 现有库存准确"
+        }
+      ]
+    },
+    {
+      "path": "chapters[6].points[1]",
+      "verdict": "supported",
+      "reason": "constraints 缺失属实，负责人与验收待定稿，补充动作明确。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[2]",
+      "verdict": "supported",
+      "reason": "预算上限与周期有依据，缺报价属实，未引用历史金额作为本店价格。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[6].points[3]",
+      "verdict": "supported",
+      "reason": "各分项金额均可在 D18 找到，且逐项标注为模拟设定不得视为本店报价。",
+      "evidence": [
+        {
+          "source_id": "D18",
+          "quote": "项目：拍摄与内容制作；金额（元）：2,800；用途与交付：16 条自制短视频、8 篇图文，含集中拍摄"
+        },
+        {
+          "source_id": "D18",
+          "quote": "项目：机动预算；金额（元）：1,500；用途与交付：周复盘后审批使用，未用预算保留"
+        }
+      ]
+    },
+    {
+      "path": "chapters[6].points[4]",
+      "verdict": "supported",
+      "reason": "口径表述可在 D18 找到且已说明为可参考、具体口径需商家确认。",
+      "evidence": [
+        {
+          "source_id": "D18",
+          "quote": "套餐折扣已体现在实收中，赠品仅在本表计费。固定房租和既有工资另计。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[7].points[0]",
+      "verdict": "supported",
+      "reason": "baseline_metrics 与 measurement_plan 缺失属实，结论为暂无基线与阈值并给出补充动作。",
+      "evidence": []
+    },
+    {
+      "path": "chapters[7].points[1]",
+      "verdict": "supported",
+      "reason": "三列框架与四个阈值均可在 D22 找到，且阈值标注为模拟设定、本店阈值另行确定。",
+      "evidence": [
+        {
+          "source_id": "D22",
+          "quote": "每单实收低于 ¥200 连续 7 天，调整套餐搭配，暂停叠加优惠。"
+        },
+        {
+          "source_id": "D22",
+          "quote": "准时率低于 90% 连续 2 天，先减少 20% 配额，调整备料和排班。"
+        },
+        {
+          "source_id": "D22",
+          "quote": "新客样本满 20 单且成本高于 ¥55，暂停素材。访问满 200 次且转化低于 8%，改详情。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[7].points[2]",
+      "verdict": "supported",
+      "reason": "区分曝光、成交、核销与收益并统一口径为明确建议，去重要求与 D23 的按广告归因队列核算一致。",
+      "evidence": [
+        {
+          "source_id": "D23",
+          "quote": "按广告归因队列核算：获客成本 = 投放费 / 去重新客核销单（猫咖按人次）；自然流量另列。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[7].points[3]",
+      "verdict": "supported",
+      "reason": "复盘登记项与双周对照均可在 D23 找到，控制变量提示为建议且未宣称因果。",
+      "evidence": [
+        {
+          "source_id": "D23",
+          "quote": "记录投放额、付费新客、核销、退款、订单贡献；双周做匹配星期的\n投放 / 不投放对照。"
+        }
+      ]
+    },
+    {
+      "path": "chapters[7].points[4]",
+      "verdict": "needs_revision",
+      "reason": "D21 中两版头图各 200 次访问的付费转化为 8%→13%，正文写作 9%→14%，属另一案例数据；同一案例内也不存在 9%→14% 与 8%→13% 两个并行版本，数值与归属均有误。",
+      "evidence": [
+        {
+          "source_id": "D21",
+          "quote": "素材 A：烧鸟特写；详情访问：200 次；付费订单：16 单；付费转化：8%"
+        },
+        {
+          "source_id": "D23",
+          "quote": "“菜品特写”售券 18 笔，“双人整\n桌”售券 28 笔，转化 9%→14%。只能形成复测假设。"
+        }
+      ]
+    },
+    {
+      "path": "budget_note",
+      "verdict": "supported",
+      "reason": "预算上限与周期有依据，缺报价与分项留空属实，历史金额标注为虚构示例，'建议分配、非已确认报价'表述合规。",
+      "evidence": [
+        {
+          "source_id": "D18",
+          "quote": "表格第 8 行：项目：合计；金额（元）：12,000；用途与交付：所有新增营销现金支出计入总额"
+        },
+        {
+          "source_id": "D19",
+          "quote": "阶段：第 5 至 8 周 / 复购；负责人：店长、社群负责人；交付内容：余下内容与合作， / 复购台账、预算决算与结案报告；放行条件：总预算不超额， / 赠品与核销可对账"
+        },
+        {
+          "source_id": "D20",
+          "quote": "放量前验收\n已确认预约不超卖；含蘸料 / 锅底明示；夜班投诉有专人当天跟进。"
+        }
+      ]
+    }
+  ]
+}
